@@ -2,8 +2,6 @@ package parsing_json;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
 import java.util.ListIterator;
 
 public class ElementCollection extends ArrayList<Element>{
