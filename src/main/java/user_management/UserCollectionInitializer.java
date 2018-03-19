@@ -22,7 +22,6 @@ public class UserCollectionInitializer {
 
     private static File loadFile(){
         ClassLoader classLoader = UserCollectionInitializer.class.getClassLoader();
-        File file = new File(classLoader.getResource("users.json").getFile());
-        return file;
+        return new File(classLoader.getResource("users.json").getFile());
     }
 }
