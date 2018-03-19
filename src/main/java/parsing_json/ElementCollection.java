@@ -26,12 +26,17 @@ public class ElementCollection extends ArrayList<Element>{
         return null;
     }
 
-    public ElementCollection where(String fieldName, Object value) throws NoSuchFieldException {
+    public ElementCollection where(String fieldName, Object value) {
         ElementCollection subset = new ElementCollection();
         ListIterator<Element> it = listIterator();
         while (it.hasNext()) {
             Element tempElement = it.next();
-            Field field = tempElement.getClass().getDeclaredField(fieldName);
+            Field field = null;
+            try {
+                field = tempElement.getClass().getDeclaredField(fieldName);
+            } catch (NoSuchFieldException e) {
+                e.printStackTrace();
+            }
             field.setAccessible(true);
             Object tempValue = new Object();
             try {
