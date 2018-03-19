@@ -34,7 +34,7 @@ public class UserCollection extends ArrayList<User> {
 
     public int createUser(String name, String email, String password) throws EmailNotAvailableException, InvalidEmailException, PasswordTooSimpleException {
         if (this.findByEmail(email) != null) throw new EmailNotAvailableException();
-        int id = this.size();
+        int id = this.size() + 1;
         if (emailInvalid(email)) throw new InvalidEmailException();
         if (passwordTooSimple(password)) throw new PasswordTooSimpleException();
         this.add(new User(id, name, email, password));
@@ -42,16 +42,17 @@ public class UserCollection extends ArrayList<User> {
     }
 
     private boolean passwordTooSimple(String password){
-        if (password.length() < 8) return true;
-        if (!password.matches("[a-z]")) return true;
-        if (!password.matches("[A-Z]")) return true;
-        if (!password.matches("[!@#$%^&*()<>?]")) return true;
-        if (!password.matches("[\\d]")) return true;
+//        if (password.length() < 8) return true;
+//        if (!password.matches("[a-z]")) return true;
+//        if (!password.matches("[A-Z]")) return true;
+//        if (!password.matches("[!@#$%^&*()<>?]")) return true;
+//        if (!password.matches("[\\d]")) return true;
+        if (!password.matches("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$")) return true;
         return false;
     }
 
     private boolean emailInvalid(String email){
-        if (!email.matches("\\w+@\\w+\\.\\w{3}")) return true;
+        if (!email.matches("(\\w)+@(\\w)+\\.(\\w{3}|(\\w{2}\\.\\w{2}))")) return true;
         return false;
     }
 }
