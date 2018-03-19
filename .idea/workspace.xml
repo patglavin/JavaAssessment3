@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b43be0c8-6185-454c-8074-f0c08bcaa557" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user_management/security/Authenticator.java" afterPath="$PROJECT_DIR$/src/main/java/user_management/security/Authenticator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user_management/UserCollectionInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/user_management/UserCollectionInitializer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,56 +14,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="ElementCollectionInitializer.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ElementCollectionTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1323">
-                  <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ElementTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1449">
-                  <caret line="97" column="33" lean-forward="false" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="ElementCollectionInitializerTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="ElementCollectionInitializer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -92,7 +56,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/user_management/security/Password.java" />
         <option value="$PROJECT_DIR$/src/test/java/user_management/UserCollectionInitializerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user_management/UserCollectionInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/user_management/security/UserAuthenticationFailedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/user_management/validation/InvalidEmailException.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
@@ -102,6 +65,7 @@
         <option value="$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/user_management/UserCollection.java" />
         <option value="$PROJECT_DIR$/src/main/java/user_management/security/Authenticator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user_management/UserCollectionInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
       </list>
     </option>
@@ -178,6 +142,21 @@
               <item name="assessment3" type="b2602c69:ProjectViewProjectNode" />
               <item name="fourthAssessment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assessment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fourthAssessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assessment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fourthAssessment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ElementCollectionInitializerTest.generate">
+  <component name="RunManager" selected="JUnit.ElementCollectionInitializerTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -437,11 +416,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest.generate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ElementTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserCollectionInitializerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserCollectionInitializerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ElementCollectionInitializerTest.generate" />
       </list>
     </recent_temporary>
   </component>
@@ -458,44 +437,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521465735563</updated>
-      <workItem from="1521465739749" duration="15348000" />
+      <workItem from="1521465739749" duration="15786000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthenticatorTest - 2018.03.19 at 13h 59m 56s.xml">
-      <configuration name="AuthenticatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthenticatorTest - 2018.03.19 at 14h 00m 31s.xml">
-      <configuration name="AuthenticatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ElementCollectionInitializerTest - 2018.03.19 at 14h 01m 13s.xml">
+    <history-entry file="ElementCollectionInitializerTest - 2018.03.19 at 14h 19m 23s.xml">
       <configuration name="ElementCollectionInitializerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_generate - 2018.03.19 at 14h 08m 57s.xml">
-      <configuration name="ElementCollectionInitializerTest.generate" configurationId="JUnit" />
+    <history-entry file="ElementCollectionInitializerTest - 2018.03.19 at 14h 20m 02s.xml">
+      <configuration name="ElementCollectionInitializerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionTest - 2018.03.19 at 14h 01m 10s.xml">
+    <history-entry file="ElementCollectionInitializerTest - 2018.03.19 at 14h 20m 24s.xml">
+      <configuration name="ElementCollectionInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElementCollectionInitializerTest - 2018.03.19 at 14h 20m 43s.xml">
+      <configuration name="ElementCollectionInitializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElementCollectionTest - 2018.03.19 at 14h 20m 19s.xml">
       <configuration name="ElementCollectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementTest - 2018.03.19 at 14h 01m 05s.xml">
+    <history-entry file="ElementCollectionTest - 2018.03.19 at 14h 20m 39s.xml">
+      <configuration name="ElementCollectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElementTest - 2018.03.19 at 14h 20m 14s.xml">
       <configuration name="ElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordTest - 2018.03.19 at 14h 00m 44s.xml">
-      <configuration name="PasswordTest" configurationId="JUnit" />
+    <history-entry file="ElementTest - 2018.03.19 at 14h 20m 34s.xml">
+      <configuration name="ElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCollectionInitializerTest - 2018.03.19 at 14h 00m 48s.xml">
+    <history-entry file="UserCollectionInitializerTest - 2018.03.19 at 14h 19m 05s.xml">
       <configuration name="UserCollectionInitializerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCollectionTest - 2018.03.19 at 14h 00m 38s.xml">
-      <configuration name="UserCollectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest - 2018.03.19 at 14h 00m 26s.xml">
-      <configuration name="UserTest" configurationId="JUnit" />
+    <history-entry file="UserCollectionInitializerTest - 2018.03.19 at 14h 19m 19s.xml">
+      <configuration name="UserCollectionInitializerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15348000" />
+    <option name="totallyTimeSpent" value="15786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-266" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -683,16 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user_management/UserCollectionInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user_management/validation/InvalidEmailException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -829,13 +798,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user_management/UserCollectionInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/user_management/UserCollectionInitializerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="105">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -858,16 +833,18 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
