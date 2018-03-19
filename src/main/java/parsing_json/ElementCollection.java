@@ -32,7 +32,14 @@ public class ElementCollection extends ArrayList<Element>{
         while (it.hasNext()) {
             Element tempElement = it.next();
             Field field = tempElement.getClass().getDeclaredField(fieldName);
-            if () {
+            field.setAccessible(true);
+            Object tempValue = new Object();
+            try {
+                tempValue = field.get(tempElement);
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+            if (tempValue.equals(value)) {
                 subset.add(tempElement);
             }
         }

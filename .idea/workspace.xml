@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43be0c8-6185-454c-8074-f0c08bcaa557" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" afterPath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +72,8 @@
           <file leaf-file-name="ElementCollection.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="444">
-                  <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+                <state relative-caret-position="216">
+                  <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -101,8 +98,8 @@
           <file leaf-file-name="ElementCollectionTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="125" column="44" lean-forward="true" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
+                <state relative-caret-position="212">
+                  <caret line="77" column="51" lean-forward="true" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -505,19 +502,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521465735563</updated>
-      <workItem from="1521465739749" duration="7134000" />
+      <workItem from="1521465739749" duration="7330000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="ElementCollectionTest - 2018.03.19 at 11h 16m 27s.xml">
       <configuration name="ElementCollectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ElementCollectionTest_where - 2018.03.19 at 11h 14m 11s.xml">
-      <configuration name="ElementCollectionTest.where" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ElementCollectionTest_where - 2018.03.19 at 11h 14m 52s.xml">
-      <configuration name="ElementCollectionTest.where" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ElementCollectionTest_where - 2018.03.19 at 11h 15m 42s.xml">
       <configuration name="ElementCollectionTest.where" configurationId="JUnit" />
@@ -540,9 +531,15 @@
     <history-entry file="ElementCollectionTest_where - 2018.03.19 at 11h 24m 21s.xml">
       <configuration name="ElementCollectionTest.where" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ElementCollectionTest_where - 2018.03.19 at 11h 28m 14s.xml">
+      <configuration name="ElementCollectionTest.where" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElementCollectionTest_where - 2018.03.19 at 11h 28m 48s.xml">
+      <configuration name="ElementCollectionTest.where" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7134000" />
+    <option name="totallyTimeSpent" value="7330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-266" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -809,20 +806,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="125" column="44" lean-forward="true" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
+        <state relative-caret-position="216">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="212">
+          <caret line="77" column="51" lean-forward="true" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
