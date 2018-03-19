@@ -20,6 +20,13 @@ public class User {
         this.password = password;
     }
 
+    public User(int id, String name, String email, String password){
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = new Password(password);
+    }
+
     @Override
     public boolean equals(Object obj) {
         User otherUser = (User) obj;
