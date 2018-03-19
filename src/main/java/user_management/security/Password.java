@@ -1,18 +1,23 @@
 package user_management.security;
 
+import org.mindrot.jbcrypt.BCrypt;
+
 public class Password {
     private final static int workload = 12;
+    private String hash;
 
     public Password(String password) {
-        //this.hash = hashPassword(password);
+        this.hash = hashPassword(password);
     }
 
     public static String hashPassword(String password_plaintext) {
-        // salt = generateSalt(workload)
-        // hash = hasher.hash(password, salt)
-        // return hash
+//        salt = generateSalt(workload)
+        String hashed = BCrypt.hashpw(password_plaintext, BCrypt.gensalt(workload));
 
-        return null;
+//        hash = hasher.hash(password, salt)
+//        return hash
+
+        return hashed;
     }
 
     public boolean matches(String password_plaintext) {
@@ -24,7 +29,7 @@ public class Password {
         // hasher.check(password, hashToCheckAgainst)
         // return true if check is true
         // return false if check is false
-        return false;
+        return BCrypt.checkpw(password_plaintext, hash);
     }
 
     public String getHash() {
