@@ -33,6 +33,6 @@ public class Password {
     }
 
     public String getHash() {
-        return null;
+        return this.hash;
     }
 }
